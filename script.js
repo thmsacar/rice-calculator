@@ -17,7 +17,7 @@ function calculateWater() {
     const evapRate = parseFloat(document.getElementById('evaporationRate').value);
 
     if (isNaN(amount) || amount <= 0) {
-        alert("Please enter a valid amount of rice, bro!");
+        alert("Please enter a valid amount of rice!");
         return;
     }
 
